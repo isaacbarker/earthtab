@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "EarthTab",
+    "description": "Custom new tab page that displays a satellite picture of the earth.",
+    "version": "1.0.0",
+    "chrome_url_overrides" : {
+        "newtab": "new-tab-page/new-tab.html"
+    },
+    "icons": {
+        "16": "images/favicon-16x16.png",
+        "32": "images/favicon-32x32.png",
+        "192": "images/android-chrome-192x192.png",
+        "512": "images/android-chrome-512x512.png"
+    }
+}
